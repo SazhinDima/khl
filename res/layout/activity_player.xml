@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/playerImageView"
+        style="@style/playerImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/playerloading" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/playerName"
+            style="@style/playerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:minWidth="400dip" >
+
+                <TextView
+                    style="@style/playerStatName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Номер" />
+
+                <TextView
+                    style="@style/playerStatName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Рост" />
+
+                <TextView
+                    style="@style/playerStatName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Вес" />
+
+                <TextView
+                    style="@style/playerStatName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Дата рождения" />
+
+                <TextView
+                    style="@style/playerStatName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Амплуа" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/playerNumber"
+                    style="@style/playerStatValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/playerHeight"
+                    style="@style/playerStatValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/playerWeight"
+                    style="@style/playerStatValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/playerBorn"
+                    style="@style/playerStatValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/playerPosition"
+                    style="@style/playerStatValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

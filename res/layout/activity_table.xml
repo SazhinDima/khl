@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TableLayout
+            android:id="@+id/table_team_name"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:visibility="invisible" >
+
+            <TableRow
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView style="@style/tableRowFieldHeader" />
+            </TableRow>
+        </TableLayout>
+
+        <HorizontalScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:visibility="invisible" >
+
+                <TableRow
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="Количество проведенных игр" />
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="Выигрыши в основное время" />
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="Выигрыши в овертайме" />
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="Выигрыши в послематчевых буллитах" />
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="Проигрыши в послематчевых буллитах" />
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="Проигрыши в овертайме" />
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="Проигрыши в основное время" />
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="Забито" />
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="-" />
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="Пропущено" />
+
+                    <TextView
+                        style="@style/tableRowFieldHeader"
+                        android:text="Количество набранных очков" />
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</ScrollView>

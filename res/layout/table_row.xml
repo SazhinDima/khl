@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/game_count"
+        style="@style/tableRowField" />
+
+    <TextView
+        android:id="@+id/wins"
+        style="@style/tableRowField" />
+
+    <TextView
+        android:id="@+id/wins_ot"
+        style="@style/tableRowField" />
+
+    <TextView
+        android:id="@+id/wins_so"
+        style="@style/tableRowField" />
+
+    <TextView
+        android:id="@+id/loses_so"
+        style="@style/tableRowField" />
+
+    <TextView
+        android:id="@+id/loses_ot"
+        style="@style/tableRowField" />
+
+    <TextView
+        android:id="@+id/loses"
+        style="@style/tableRowField" />
+
+    <TextView
+        android:id="@+id/scoring_goals"
+        style="@style/tableRowField" />
+
+    <TextView
+        style="@style/tableRowField"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/missed_goals"
+        style="@style/tableRowField" />
+
+    <TextView
+        android:id="@+id/scores"
+        style="@style/tableRowField" />
+
+</TableRow>

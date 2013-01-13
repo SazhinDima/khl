@@ -1,0 +1,86 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="teamName">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    
+    <style name="tableRowField">
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">4sp</item>
+        <item name="android:paddingRight">4sp</item>
+        <item name="android:paddingTop">1sp</item>
+        <item name="android:paddingBottom">1sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="tableRowFieldHeader">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">4sp</item>
+        <item name="android:paddingRight">4sp</item>
+        <item name="android:paddingTop">1sp</item>
+        <item name="android:paddingBottom">1sp</item>
+    </style>
+    
+    <style name="tableRowFieldTeamName">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">4sp</item>
+        <item name="android:paddingRight">4sp</item>
+        <item name="android:paddingTop">1sp</item>
+        <item name="android:paddingBottom">1sp</item>
+    </style>
+    
+    <style name="playerImage">
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:paddingRight">8sp</item>
+        <item name="android:paddingTop">8sp</item>
+        <item name="android:paddingBottom">8sp</item>
+    </style>
+    
+    <style name="playerName">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:paddingLeft">4sp</item>
+        <item name="android:paddingRight">4sp</item>
+        <item name="android:paddingTop">1sp</item>
+        <item name="android:paddingBottom">1sp</item>
+    </style>
+    
+    <style name="playerStatName">
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">4sp</item>
+        <item name="android:paddingRight">4sp</item>
+        <item name="android:paddingTop">1sp</item>
+        <item name="android:paddingBottom">1sp</item>
+        <item name="android:gravity">right</item>
+    </style>
+    
+    <style name="playerStatValue">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">4sp</item>
+        <item name="android:paddingRight">4sp</item>
+        <item name="android:paddingTop">1sp</item>
+        <item name="android:paddingBottom">1sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+    
+    <style name="playerNumber4Team">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#333333</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+    <style name="playerName4Team">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">10sp</item>
+    </style>
+    
+</resources>
